@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Youssef Salem's CV: Computer Science student at the American University in Cairo and Software Engineering Intern at Microsoft.">
+  <title>Youssef Salem | Computer Science &amp; Software Engineering</title>
+  <link rel="icon" href="images/avatar.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Youssef Salem, home">YS<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact <span aria-hidden="true">&#8599;</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Cairo, Egypt <span aria-hidden="true">/</span> Computer Science</p>
+        <h1 id="hero-title">Youssef<br><span>Salem.</span></h1>
+        <p class="professional-title">Software Engineering Intern at Microsoft<br>Computer Science Student at AUC</p>
+        <p class="hero-summary">Building useful software.<br>Making it easier for people to use.</p>
+        <div class="hero-actions">
+          <a class="button" href="#projects">Explore my work <span aria-hidden="true">&#8595;</span></a>
+          <a class="text-link" href="https://github.com/Youssef-salem">GitHub <span aria-hidden="true">&#8599;</span></a>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="profile-card-top"><span>PERSONAL PROFILE</span><span aria-hidden="true">01 / YS</span></div>
+        <img src="images/avatar.svg" width="320" height="320" alt="Professional initials avatar for Youssef Salem">
+        <div class="profile-card-bottom">
+          <p>Code with purpose.<br><strong>Build for people.</strong></p>
+          <span class="profile-location">30.04&deg; N<br>31.24&deg; E</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-grid" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="eyebrow">01 / A little about me</p>
+        <h2 id="about-title">Curiosity, meet code.</h2>
+      </div>
+      <div class="about-copy">
+        <p>I'm a Computer Science student at the American University in Cairo and a Software Engineering Intern at Microsoft. I work primarily with C++, Java, Swift, and Python, with a strong foundation in object-oriented programming, data structures, and algorithms.</p>
+        <p>I enjoy turning problems I've experienced into better tools. That led me to build acrars, a fork of the RARS RISC-V simulator focused on native desktop integration, keyboard navigation, and accessibility. Alongside building software, I've helped students work through core programming concepts as a teaching assistant.</p>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / Learning by doing</p><h2 id="experience-title">Experience &amp; involvement</h2></div>
+      </div>
+      <div class="experience-list">
+        <article class="experience-row">
+          <div class="experience-meta"><span class="tag">Engineering</span><p>Current role</p></div>
+          <div><h3>Software Engineering Intern</h3><p class="organization">Microsoft</p><p>Applying my computer science background in a professional software engineering environment.</p></div>
+        </article>
+        <article class="experience-row">
+          <div class="experience-meta"><span class="tag">Teaching</span><p>Feb 2025 &ndash; Present</p></div>
+          <div><h3>Teaching Assistant &mdash; Fundamentals of Computing I</h3><p class="organization">The American University in Cairo</p><ul><li>Assisted 30+ students with core computing concepts during office hours and revision sessions.</li><li>Helped students identify and fix issues in their code.</li></ul></div>
+        </article>
+        <article class="experience-row">
+          <div class="experience-meta"><span class="tag">Community</span><p>2024 &ndash; Present</p></div>
+          <div><h3>Event Operations Volunteer</h3><p class="organization">AUC Student Union</p><p>Contributed to university-wide events and supported the AAA initiative to enhance sports accessibility for people with disabilities.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 / Selected work</p><h2 id="projects-title">From concepts to working code.</h2></div>
+        <a class="text-link" href="https://github.com/Youssef-salem">GitHub profile <span aria-hidden="true">&#8599;</span></a>
+      </div>
+      <article class="featured-project">
+        <div class="featured-copy">
+          <p class="eyebrow">Featured project / Developer tools</p>
+          <h3>acrars<span aria-hidden="true">_</span></h3>
+          <p>A more accessible, desktop-ready RISC-V simulator. A fork of RARS, rebuilt around the everyday experience of students using it.</p>
+          <ul>
+            <li>Self-contained installers for macOS, Windows, and Linux.</li>
+            <li>Native file pickers, desktop menus, and keyboard navigation.</li>
+            <li>Screen-reader support and automated multi-OS releases.</li>
+          </ul>
+          <ul class="chips" aria-label="acrars technologies"><li>Java 17</li><li>Swing</li><li>jpackage</li><li>GitHub Actions</li></ul>
+          <a class="project-link" href="https://github.com/Youssef-salem/acrars">Explore the repository <span aria-hidden="true">&#8599;</span></a>
+        </div>
+        <div class="project-visual" aria-hidden="true">
+          <div class="window-bar"><span></span><span></span><span></span><b>acrars / RISC-V</b></div>
+          <div class="code-art"><span class="code-comment"># Small instructions.</span><br><span class="code-comment"># Better experiences.</span><br><br><span class="code-label">main:</span><br>&nbsp; <span class="code-command">li</span> a7, 4<br>&nbsp; <span class="code-command">la</span> a0, message<br>&nbsp; <span class="code-command">ecall</span><br><br><span class="code-label">message:</span><br>&nbsp; .asciz <span class="code-string">"Hello, world!"</span></div>
+          <div class="platforms">macOS <span>/</span> Windows <span>/</span> Linux</div>
+        </div>
+      </article>
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="project-number" aria-hidden="true">01</span>
+          <h3>Hospital Management System</h3>
+          <p>A C++ system for managing doctor appointments and availability, using object-oriented design, queues, and linked lists.</p>
+          <ul class="chips" aria-label="Hospital Management System technologies"><li>C++</li><li>OOP</li><li>Queues</li></ul>
+        </article>
+        <article class="project-card">
+          <span class="project-number" aria-hidden="true">02</span>
+          <h3>Map Navigator</h3>
+          <p>A route-finding program that uses Dijkstra's algorithm to calculate the shortest path between two US states.</p>
+          <ul class="chips" aria-label="Map Navigator technologies"><li>C++</li><li>Graphs</li><li>Dijkstra</li></ul>
+        </article>
+        <article class="project-card">
+          <span class="project-number" aria-hidden="true">03</span>
+          <h3>Expression Calculator</h3>
+          <p>A calculator that converts infix expressions to postfix notation and evaluates them using a linked-list stack.</p>
+          <ul class="chips" aria-label="Expression Calculator technologies"><li>C++</li><li>Stacks</li><li>Linked lists</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <div class="section education-skills">
+      <section aria-labelledby="education-title">
+        <p class="eyebrow">04 / Academic foundation</p>
+        <h2 id="education-title">Education</h2>
+        <div class="education-card">
+          <p class="education-date">Expected graduation &middot; December 2027</p>
+          <h3>B.S. in Computer Science</h3>
+          <p class="organization">The American University in Cairo</p>
+          <p>Cairo, Egypt</p>
+          <h4>Relevant coursework</h4>
+          <p>Data Structures, Object-Oriented Programming, Algorithms</p>
+        </div>
+      </section>
+      <section aria-labelledby="skills-title">
+        <p class="eyebrow">05 / My toolkit</p>
+        <h2 id="skills-title">Technical skills</h2>
+        <div class="skill-group"><h3>Languages</h3><ul class="chips"><li>C++</li><li>Java</li><li>Swift</li><li>Python</li></ul></div>
+        <div class="skill-group"><h3>Tools &amp; technologies</h3><ul class="chips"><li>Git</li><li>Xcode</li><li>GitHub Actions</li><li>Java Swing</li><li>jpackage</li><li>WiX</li></ul></div>
+        <div class="skill-group"><h3>Foundations</h3><ul class="chips"><li>Object-oriented programming</li><li>Data structures</li><li>Algorithms</li><li>Accessibility</li></ul></div>
+      </section>
+    </div>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div><p class="eyebrow">06 / Get in touch</p><h2 id="contact-title">Let's connect.</h2><p>Have a project in mind or want to talk software?<br>Get in touch by email, LinkedIn, or GitHub.</p></div>
+      <div class="contact-links">
+        <a href="mailto:business.youssefsalem@gmail.com"><span><small>Email</small>business.youssefsalem@gmail.com</span><span aria-hidden="true">&#8599;</span></a>
+        <a href="https://www.linkedin.com/in/youssefsalemofficial"><span><small>LinkedIn</small>Youssef Salem</span><span aria-hidden="true">&#8599;</span></a>
+        <a href="https://github.com/Youssef-salem"><span><small>GitHub</small>@Youssef-salem</span><span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>&copy; 2026 Youssef Salem</p></footer>
+</body>
+</html>
