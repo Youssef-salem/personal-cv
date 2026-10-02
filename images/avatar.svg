@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <title>Youssef Salem initials avatar</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#365fe0"/>
+      <stop offset="1" stop-color="#17328a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="160" cy="160" r="147" fill="none" stroke="#bdccef"/>
+  <circle cx="160" cy="160" r="131" fill="url(#background)"/>
+  <path d="M49 228 253 74M69 255 275 100" fill="none" stroke="#fff" stroke-opacity=".09" stroke-width="24"/>
+  <text x="155" y="193" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="700" letter-spacing="-9">YS</text>
+  <circle cx="260" cy="248" r="24" fill="#f7f8fa" stroke="#e9eefb" stroke-width="5"/>
+  <path d="m250 248 7 7 13-14" fill="none" stroke="#244fd5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
