@@ -129,6 +129,16 @@ h4 { font-size: 0.8rem; margin-bottom: 6px; }
 .contact-form #form-status[data-state="error"] { color: #a42231; }
 .contact-form #form-status[data-state="success"] { color: #17633d; }
 
+.repository-intro, #repository-status { color: var(--muted); font-size: 0.9rem; }
+#repository-status { margin-top: 18px; }
+#repository-status[data-state="error"] { color: #a42231; }
+.repository-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.repository-grid .project-card { min-width: 0; overflow-wrap: anywhere; }
+.repository-grid h3 a { text-decoration: none; }
+.repository-grid h3 a:hover { text-decoration: underline; }
+.repository-profile { display: inline-block; margin-top: 24px; color: var(--blue); }
+#refresh-repositories:disabled { cursor: wait; opacity: 0.65; }
+
 @media screen {
   :root[data-theme="dark"] {
     color-scheme: dark;
@@ -148,6 +158,7 @@ h4 { font-size: 0.8rem; margin-bottom: 6px; }
   [data-theme="dark"] .field-error, [data-theme="dark"] .contact-form #form-status[data-state="error"] { color: #ffadb7; }
   [data-theme="dark"] .form-field [aria-invalid="true"] { border-color: #ffadb7; }
   [data-theme="dark"] .contact-form #form-status[data-state="success"] { color: #98d9bd; }
+  [data-theme="dark"] #repository-status[data-state="error"] { color: #ffadb7; }
 }
 
 @media (max-width: 900px) {

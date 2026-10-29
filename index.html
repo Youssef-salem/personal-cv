@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Youssef Salem's CV: Computer Science student at the American University in Cairo and Software Engineering Intern at Microsoft.">
+  <meta name="description" content="Youssef Salem's portfolio: Computer Science student at AUC, Software Engineering Intern at Microsoft, and live projects from GitHub.">
   <title>Youssef Salem | Computer Science &amp; Software Engineering</title>
   <link rel="icon" href="images/avatar.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -16,6 +16,7 @@
     <nav aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact <span aria-hidden="true">&#8599;</span></a>
     </nav>
@@ -122,6 +123,20 @@
       </div>
     </section>
 
+    <section class="section" id="github-projects" aria-labelledby="github-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Live from GitHub / Public API</p>
+          <h2 id="github-title">What I'm working on.</h2>
+        </div>
+        <button class="toggle-button" id="refresh-repositories" type="button" aria-controls="repository-list" hidden>Refresh repositories</button>
+      </div>
+      <p class="repository-intro">My six most recently updated public repositories, fetched directly from GitHub. Includes forks; descriptions, languages, and star counts come from the API.</p>
+      <p id="repository-status" role="status" aria-live="polite" aria-atomic="true">Enable JavaScript to load live repositories.</p>
+      <div class="project-grid repository-grid" id="repository-list" aria-busy="false"></div>
+      <a class="text-link repository-profile" href="https://github.com/Youssef-salem?tab=repositories">View all repositories on GitHub <span aria-hidden="true">&#8599;</span></a>
+    </section>
+
     <div class="section education-skills">
       <section aria-labelledby="education-title">
         <p class="eyebrow">04 / Academic foundation</p>
@@ -135,7 +150,7 @@
           <p>Data Structures, Object-Oriented Programming, Algorithms</p>
         </div>
       </section>
-      <section aria-labelledby="skills-title">
+      <section id="skills" aria-labelledby="skills-title">
         <p class="eyebrow">05 / My toolkit</p>
         <h2 id="skills-title">Technical skills</h2>
         <button class="toggle-button skills-toggle" type="button" aria-controls="skills-content" aria-expanded="true" data-disclosure="skills" hidden>Hide skills</button>
